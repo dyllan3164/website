@@ -1119,3 +1119,17 @@ p.project-link {
     margin: 5px;
   }
 }
+
+.input-item:not(:placeholder-shown).input-item:not(:focus) + .form-label {
+  top: -2px;
+  left: -2px;
+  font-size: 10px;
+  color: rgb(138, 130, 130);
+}
+
+.textarea:not(:placeholder-shown).textarea:not(:focus) + .form-label {
+  top: -2px;
+  left: -2px;
+  font-size: 10px;
+  color: rgb(138, 130, 130);
+}
